@@ -1,3 +1,10 @@
+---
+layout: default
+title: 📊 Tokenomics
+parent: $SOLID TOKEN
+nav_order: 2
+---
+
 # 📊 Tokenomics
 
 ## Pretext

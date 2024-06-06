@@ -1,3 +1,10 @@
+---
+layout: default
+title: 📈 Emission Schedule
+parent: $SOLID TOKEN
+nav_order: 3
+---
+
 # 📈 Emission Schedule
 
 The emission schedule of the re-launched protocol on Ethereum would take on the following curve:

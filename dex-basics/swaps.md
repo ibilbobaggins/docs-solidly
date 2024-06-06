@@ -1,3 +1,11 @@
+---
+layout: default
+title: 🔃 Swaps
+parent: DEX BASICS
+nav_order: 1
+---
+
+
 # 🔃 Swaps
 
 ## V2 Swaps

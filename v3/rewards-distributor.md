@@ -1,4 +1,11 @@
 ---
+layout: default
+title: 💲 Rewards Distributor
+parent: V3
+nav_order: 5
+---
+
+---
 description: An Efficient Piece of Machinery
 ---
 

@@ -1,4 +1,12 @@
 ---
+layout: default
+title: ✔️ Solidly's Solution
+parent: A New Kind of DEX
+nav_order: 2
+---
+
+
+---
 description: Capital Efficiency is Key
 ---
 

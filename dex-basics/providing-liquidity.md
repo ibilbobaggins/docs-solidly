@@ -1,3 +1,10 @@
+---
+layout: default
+title: 🌊 Providing Liquidity
+parent: DEX BASICS
+nav_order: 4
+---
+
 # 🌊 Providing Liquidity
 
 ### General Info

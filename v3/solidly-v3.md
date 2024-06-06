@@ -1,4 +1,10 @@
 ---
+layout: default
+title: ⚡ Solidly V3
+parent: V3
+nav_order: 1
+---
+
 description: The World's Most Gas-Efficient CLAMM DEX
 ---
 

@@ -1,3 +1,10 @@
+---
+layout: default
+title: ⚖️ Legal
+parent: APPENDIX
+nav_order: 1
+---
+
 # ⚖️ Legal
 
 ## Legal Disclaimer

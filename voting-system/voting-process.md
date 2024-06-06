@@ -1,3 +1,10 @@
+---
+layout: default
+title: 🗳️ Voting Process
+parent: VOTING SYSTEM
+nav_order: 2
+---
+
 # 🗳️ Voting Process
 
 ## Process Flow of Voting

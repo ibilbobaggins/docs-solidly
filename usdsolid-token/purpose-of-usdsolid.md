@@ -1,3 +1,10 @@
+---
+layout: default
+title: ➡️ Purpose of $SOLID
+parent: $SOLID TOKEN
+nav_order: 1
+---
+
 # ➡️ Purpose of $SOLID
 
 The main purpose of the `SOLID` ERC-20 token is to incentivize liquidity providers on Solidly.

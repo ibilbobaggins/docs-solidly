@@ -1,3 +1,10 @@
+---
+layout: default
+title: 🤖 JIT Protection
+parent: V3
+nav_order: 3
+---
+
 # 🤖 JIT Protection
 
 The topic of just-in-time ("JIT") liquidity has gained more [public awareness](https://blog.kaiko.com/beneath-the-surface-of-uniswap-pools-just-in-time-liquidity-4fad61a2e60d) this year, as far as the official team at [Uniswap retracting](https://twitter.com/danrobinson/status/1697438923918844054) their previously positive opinion on it. The team at Solidly Labs has done extensive research into the topic with pending publications.

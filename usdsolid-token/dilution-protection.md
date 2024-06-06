@@ -1,3 +1,10 @@
+---
+layout: default
+title: 💯 Dilution Protection
+parent: $SOLID TOKEN
+nav_order: 4
+---
+
 # 💯 Dilution Protection
 
 **Solidly offers 100% dilution protection.**

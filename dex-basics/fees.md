@@ -1,3 +1,10 @@
+---
+layout: default
+title: 🪙 Fees
+parent: DEX BASICS
+nav_order: 2
+---
+
 # 🪙 Fees
 
 Solidly introduces a fully adaptive fee structure, where trading fees are dynamically adjusted in response to market volatility with min/max values of 0% and 10%, respectively.

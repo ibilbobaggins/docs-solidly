@@ -1,4 +1,11 @@
 ---
+layout: default
+title: 👓 Basics
+parent: VOTING SYSTEM
+nav_order: 1
+---
+
+---
 description: The Key to SOLID Emissions
 ---
 

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Table of contents
+nav_order: 2
+---
+
 # Table of contents
 
 ## Introduction

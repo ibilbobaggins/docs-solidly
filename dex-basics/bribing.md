@@ -1,3 +1,10 @@
+---
+layout: default
+title: 💰 Bribing
+parent: DEX BASICS
+nav_order: 3
+---
+
 # 💰 Bribing
 
 One big advantage about Solidly is that protocols looking to bootstrap or deepen liquidity can do so in a very capital efficient and user friendly manner by bribing. Solidly natively supports 2 types of bribes:

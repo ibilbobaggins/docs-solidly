@@ -1,7 +1,9 @@
 ---
-description: Problem Statement of a DEX
+layout: default
+title: ⁉️ The DEX Dilemma
+parent: A New Kind of DEX
+nav_order: 1
 ---
-
 # ⁉️ The DEX Dilemma
 
 When considering decentralized exchanges and evaluating their performance indicators, people almost universally think of:

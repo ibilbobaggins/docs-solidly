@@ -1,3 +1,10 @@
+---
+layout: default
+title: 📄 Contract Addresses
+parent: RESOURCES
+nav_order: 1
+---
+
 # 📄 Contract Addresses
 
 #### V2 Contracts

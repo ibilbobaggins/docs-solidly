@@ -1,3 +1,10 @@
+---
+layout: default
+title: 💹 IL Protection
+parent: V3
+nav_order: 4
+---
+
 # 💹 IL Protection
 
 One of the biggest - and valid - factors holding people back from providing liquidity to earn yield is impermanent loss. Most retail liquidity providers are _losing money_. We attribute this to 2 main factors:

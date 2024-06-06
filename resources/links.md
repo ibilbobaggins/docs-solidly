@@ -1,3 +1,10 @@
+---
+layout: default
+title: 🇸🇴 Links
+parent: RESOURCES
+nav_order: 1
+---
+
 # 🇸🇴 Links
 
 Website: [solidly.com](https://solidly.com/)\

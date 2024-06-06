@@ -1,3 +1,10 @@
+---
+layout: default
+title: ⛽ Gas Savings
+parent: V3
+nav_order: 2
+---
+
 # ⛽ Gas Savings
 
 One of the main pitfalls for Solidly V2 (Legacy) was the substantial gas cost associated with transactions. For Solidly V3 we have gone into the complete opposite direction, producing the world's most gas efficient CLAMM DEX. Solidly V3 prides itself on offering up to 50% gas savings for traders and as much as 60% for liquidity providers in comparison to Uniswap V3.

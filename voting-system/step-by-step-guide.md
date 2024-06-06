@@ -1,3 +1,10 @@
+---
+layout: default
+title: ⚙️ Step-by-Step Guide
+parent: VOTING SYSTEM
+nav_order: 3
+---
+
 # ⚙️ Step-by-Step Guide
 
 In order to vote you first need a `veSOLID` NFT, for which you will need to lock `SOLID`.
