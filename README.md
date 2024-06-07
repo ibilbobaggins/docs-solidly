@@ -12,4 +12,4 @@ Solidly was first established in February 2022 by DeFi pioneer Andre Cronje on t
 
 ## Useful Links
 
-[Broken link](broken-reference "mention")
+[Contract Addresses](resources/contract-addresses.md)

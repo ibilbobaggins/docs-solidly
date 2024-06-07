@@ -1,6 +1,6 @@
 # 📄 Contract Addresses
 
-#### V2 Contracts
+## V2 Contracts
 
 SOLID token: [0x777172D858dC1599914a1C4c6c9fC48c99a60990](https://etherscan.io/address/0x777172D858dC1599914a1C4c6c9fC48c99a60990)\
 veSOLID NFT: [0x77730ed992D286c53F3A0838232c3957dAeaaF73](https://etherscan.io/address/0x77730ed992D286c53F3A0838232c3957dAeaaF73)\
@@ -13,16 +13,27 @@ Gauge Factory: [0x77779759974f2353835F1A8c17B88f6F1f3e4362](https://etherscan.io
 General Fees: [0x7771125a6E1553EA8845dfDF525e51DCA79585b2](https://etherscan.io/address/0x7771125a6E1553EA8845dfDF525e51DCA79585b2)\
 Solidly Lens: [0x7778D2091E3c97a259367c2cfc621cF839Bbbe2c](https://etherscan.io/address/0x7778D2091E3c97a259367c2cfc621cF839Bbbe2c)
 
-#### V3 Contracts
+## V3 Contracts
 
-SolidlyV3Factory: [0x70fe4a44ea505cfa3a57b95cf2862d4fd5f0f687](https://etherscan.io/address/0x70fe4a44ea505cfa3a57b95cf2862d4fd5f0f687)\
+Currently SolidlyV3Factory is deployed to following chains:
+
+* Arbitrum One
+* Base
+* Ethereum
+* Fantom
+* Optimism
+
+SolidlyV3Factory: [0x70fe4a44ea505cfa3a57b95cf2862d4fd5f0f687](https://etherscan.io/address/0x70fe4a44ea505cfa3a57b95cf2862d4fd5f0f687)
+
+#### Ethereum:
+
 RewardsDistributor: [0x6207801cf58ec8ff24d59dbb8fc25e4a20989ae7](https://etherscan.io/address/0x6207801cf58ec8ff24d59dbb8fc25e4a20989ae7)
 
-#### Security
+## Security
 
 Team Multisig: [0x2A007e518481D94176F21EF83F4441e1d4A4F5b7](https://etherscan.io/address/0x2A007e518481D94176F21EF83F4441e1d4A4F5b7)\
 Timelock: [0x9006550fAC2fe75903f9a7457E0CcF996DAd396A](https://etherscan.io/address/0x9006550fAC2fe75903f9a7457E0CcF996DAd396A)
 
-#### Deprecated
+## Deprecated
 
 SolidlyV3Factory (old): [0x735BB16affe83A3DC4dC418aBCcF179617Cf9FF2](https://etherscan.io/address/0x735BB16affe83A3DC4dC418aBCcF179617Cf9FF2)
