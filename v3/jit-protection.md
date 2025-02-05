@@ -19,8 +19,10 @@ This practice can be described as parasitic, as it relies on the presence of con
 
 To emphasize the gravity of the situation, consider the following case randomly selected from Etherscan at the time of writing this paragraph, which exemplifies how common the phenomenon has become:
 
-[JIT Transaction 1](https://etherscan.io/tx/0x6ea8d0849281d4f9af8aeea625bd1c5c40a53afd20d6ae773d9e076f7f04f4ab)\
-[Swap Transaction](https://etherscan.io/tx/0xe3bd0b6f25599c1ddb0133de672296a23fef974a09b4564f1aea839ba4c99c36)\
+[JIT Transaction 1](https://etherscan.io/tx/0x6ea8d0849281d4f9af8aeea625bd1c5c40a53afd20d6ae773d9e076f7f04f4ab)
+  
+[Swap Transaction](https://etherscan.io/tx/0xe3bd0b6f25599c1ddb0133de672296a23fef974a09b4564f1aea839ba4c99c36)
+  
 [JIT Transaction 2](https://etherscan.io/tx/0x1b2ee95d05c80df822ec02971dae1da5e9154ea478ad6926eb515de80b6bd315)
 
 While this may initially appear to resemble a typical sandwich attack, it is important to note that in this scenario, it does not negatively impact the trader; quite the contrary, it enhances their price execution.
@@ -29,7 +31,13 @@ So who's the victim here? The collective of dedicated and longstanding retail li
 
 What happened exactly?
 
-The JIT provider minted a \~$20m position at the smallest tick range for this pair, which has a tickSpacing of 60 and a fee of 0.3%. The lower boundary was set at 202260 and upper at 202320. The liquidity before minting the JIT position was 4.43×10¹⁸, the liquidity after the in-block JIT mint was 1.71×10²⁰ , increasing the active liquidity by a factor of 40 and the JIT representing 97.5% of the liquidity. You can see where this is heading; the swap size was a moderate $20,000, creating $60 in fees. The JIT provider earned $58.44 of those with a net profit of $50.5 after gas fees and builder bribe, while the rest, **$65m in total liquidity providers, had to share $1.56.**
+The JIT provider minted a \$20m position at the smallest tick range for this pair, which has a tickSpacing of 60
+and a fee of 0.3%. The lower boundary was set at 202260 and upper at 202320. The liquidity before minting the JIT
+position was 4.43×10¹⁸, the liquidity after the in-block JIT mint was 1.71×10²⁰ , increasing the active liquidity by
+a factor of 40 and the JIT representing 97.5% of the liquidity. You can see where this is heading;
+the swap size was a moderate \$20,000, creating \$60 in fees.
+The JIT provider earned $58.44 of those with a net profit of \$50.5 after gas fees and builder bribe, while the rest,
+**\$65m in total liquidity providers, had to share \$1.56.**
 
 Liquidity provision on Uniswap V3 is completely broken and in a silent crisis that is still largely ignored, Solidly V3 is here to fix it.
 

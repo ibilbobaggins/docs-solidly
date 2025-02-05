@@ -29,7 +29,11 @@ COPY . .
 COPY --from=deps /app/node_modules ./node_modules
 
 # Install HonKit globally (pin a version if desired, e.g., honkit@3.5.0)
-RUN npm install -g honkit
+RUN npm install -g honkit gitbook-plugin-anchorjs gitbook-plugin-page-toc
+
+RUN sed -i 's/"3.\*"/"*"/g' /usr/local/lib/node_modules/gitbook-plugin-page-toc/package.json
+
+RUN which honkit
 
 # Build the static site; HonKit outputs the book into the _book folder by default
 RUN honkit build

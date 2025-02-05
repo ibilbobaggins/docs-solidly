@@ -21,10 +21,10 @@ The amount of SOLID emissions depends on how many voters a given pool managed to
 
 By earning SOLID emissions on a weekly basis, LPs can hedge market volatility and earn a deterministic amount.
 
-Besides the above mentioned security feature, Solidly V3 introduces financial protection as well in the forms of:
+Besides the above-mentioned security feature, Solidly V3 introduces financial protection as well in the forms of:
 
-* [JIT Protection](./#jit-liquidity-protection)
-* [IL Protection](./#il-protection)
+* [JIT Protection](#jit-liquidity-protection)
+* [IL Protection](#il-protection)
 
 ### Providing Liquidity on Solidly V3
 

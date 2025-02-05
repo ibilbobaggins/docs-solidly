@@ -21,6 +21,8 @@
     "url": "https://github.com/SolidlyLabs/docs-solidly.git"
   },
   "devDependencies": {
+    "gitbook-plugin-anchorjs": "^2.1.0",
+    "gitbook-plugin-page-toc": "^1.1.1",
     "honkit": "^6.0.2"
   }
 }

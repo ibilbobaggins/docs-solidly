@@ -1,3 +1,4 @@
+
 # 🌞 Welcome to Solidly
 A new DEX Model on the Horizon
 <figure><img src="gitbook/assets/thousand.png" alt=""><figcaption></figcaption></figure>
@@ -10,6 +11,6 @@ Solidly was first established in February 2022 by DeFi pioneer Andre Cronje on t
 
 [Contract Addresses](resources/contract-addresses.md)
 
-[Table of contents](SUMMARY.md)
+[Table of contents](SUMMARY.ms)
 
-
+[Resources](resources/links.md)

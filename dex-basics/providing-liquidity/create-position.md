@@ -1,86 +1,110 @@
 ---
-description: This manual will provide basics  regarding adding liquidity to certain pool
+description: This manual will provide basics regarding adding liquidity to certain pool
 ---
 
-# Create position
+# Providing Liquidity on Solidly V3 DEX: A Step-by-Step Guide
 
-Find the pool you like and click "Manage":\
+## Introduction
+Providing liquidity on Solidly DEX allows users to earn a share of swap fees and potential emissions from voting. This guide will walk you through the process of adding liquidity (LP) efficiently.
+
+## Step 1: Finding and Managing a Pool
+
+1. Navigate to the **Liquidity Pools List** on Solidly DEX.
+2. Select the pool you wish to provide liquidity for.
+3. Click **"Manage"** to enter the liquidity provision interface.
+
+<div align="center">
+<figure>
+    <img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Liquidity pools list</p></figcaption>
+</figure>
+</div>
+
+## Step 2: Understanding the Position Deposit Page
+
+### Key Features
+
+* **Pool details button** [1] – Displays pool information.
+* **Whitelisted/Blacklisted Icon** [2] – Indicates if veNFT owners can vote on the pool to earn emissions.
+* **Position Picker** [3] – If you have multiple positions in the same pool, select the one to manage.
+* **Token Balances** [4,5] – Displays available balances for both tokens (e.g., wS & WETH).
+* **Deposit Slippage** [6] – Acceptable pool price fluctuation (e.g., 0.025%).
+* **Price Indicator Switch** [7] – Toggle between price ratios (not yet implemented).
+* **Pool Tick Spacing** [8] – Defines the lowest tick range that can be set.
+* **Custom Range Selector** [9] – Switch between predefined and custom ranges.
+* **Predefined Ranges** [10] – Choose from narrow, balanced, wide and full predefined ranges.
+Narrow range - higher risk but potential for greater returns. Full range - lowest risk of impermanent loss.
+* **Estimated Position APR** [11] – Projected earnings based on price range.
+* **Current Price Range** [12] – Displays lower and upper limits.
+* **Add Liquidity Button** [13] – Activated when valid deposit amounts are provided.
+
+<div align="center">
+<figure>
+    <img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Position deposit page</p></figcaption>
+</figure>
+</div>
+
+## Step 3: Custom Liquidity Ranges
+
+* Check **Current Pool Price** and corresponding **Tick** [1,3].
+* Use the *Custom Liquidity Range Editor* to set a personalized range using **Ticks or Price** [2].
+* Define the **Lower and Upper Bound** values [4,5] or pick a **Percentage Range** [6].
+* Review the **Estimated APR** [7] for selected range.
+
+<div align="center">
+<figure>
+    <img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Custom liquidity range editor</p></figcaption>
+</figure>
+</div>
+
+### Manual Asset Amounts Calculator
+
+* **Connected Wallet Balance** [1,3] – Displays available token amounts.
+* **Dollar Value Display** [2,4] – Shows USD equivalent of tokens.
+* **Deposit amounts** [5,6] – Token amounts to deposit.
+* **Copy Wallet Balance** [1,3] – Auto-fill available amounts on balance click.
+* **Dollar Value Display** – Shows USD equivalent of tokens.
+* **Deposit MAX** [8] – Allocate maximum deposit from wallet balance.
+* **Manual vs Advanced Mode** [9] – Adjust token amounts manually or use auto-calculated pairings.
+
+<div align="center">
+<figure>
+    <img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Manual calculator</p></figcaption>
+</figure>
+</div>
+
+#### Hint
+If you modify the amounts in manual mode the application will automatically calculate
+corresponding amount of the other token that will meet deposit conditions.
+It will not take into account your wallet balance etc.
+Use it if you would like to check how much of e.g. wS you need to deposit to pair with 1 WETH in tick range A,B.
 
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Liquidity pools list</p></figcaption></figure>
-
-### Predefined liquidity ranges:
-
-<div align="center"><figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Position deposit page</p></figcaption></figure></div>
+### Advanced Asset Amounts Calculator
 
 
+* **Wallet MAX Button** [1] – Inputs total wallet balance.
+* **Dollar Value Input** [2] – Enter desired deposit value in dollars.
+* **Deposit Ratio** [9] – Displays how much of the selected deposit can be executed instantly.
+* **Deposit Amounts** [6,7] – Token amounts to deposit.
+* **Aggregator Selector** [5] – Choose a swap aggregator for optimal asset conversion.
+* **Swap Estimations** [3,4] – Suggests amounts to swap to meet deposit conditions.
+* **Copy Swap Estimation** [8] – Copies swap estimation to the clipboard.
 
-1. Show details button
-2. Whitelisted/Blacklisted icon - if pool is whitelisted (veNFT owners can vote on this pool, and pool can earn emissions)
-3. Position picker (If owner has multiple positions for the same pool he pick to manage certain position here)
-4. Balance of token 0 in users wallet (in above example wS)
-5. Balance of token 1 in users wallet (in above example WETH)
-6. Deposit slippage, acceptable pool price change between the price used to calculate deposit amounts and the price during transaction execution. In current case user accepts the 0.025% price change.
-7. Price indicator switch - either show wS/WETH price or WETH/wS price (NOT implemented yet)
-8. Pool tick spacing - the lowest possible tick range unit (user can only set range to a values that are divisbile by pool tick spacing)
-9. Change from predefined ranges to custom range
-10. Predefined ranges. Narrow - very high risk of impermament loss, full range - lowest risk of impermament loss
-11. Estimated position apr for each predefined price range
-12. Current price range (lower, upper) price.
-13. Add liqudity button - enabled when sufficient deposit values are provided.
+<div align="center">
+<figure>
+    <img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption>
+</figure>
+</div>
 
-### Custom liquidity ranges
+## Step 4: Depositing Liquidity
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Custom liquidity range editor</p></figcaption></figure>
+* **Choose a suitable price range**.
+* **Click Wallet MAX** to allocate full available balance.
+* **Use the Aggregator Selector** to swap assets if needed.
+* **Wait for balance updates** after the swap.
+* **Click Wallet MAX again** to finalize adjusted deposit values.
+* **Click "Add Liquidity"** to complete the process.
 
-
-
-1. Current pool price token0/token1
-2. tick corresponding to current pool price
-3. Toggle price/ticks range selector
-4. Lower value of chosen tick/price range
-5. Upper value of chosen tick/price range
-6. Estimated APR for chosen price range and asset values
-
-### Manual amounts calculator
-
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Manual calculator</p></figcaption></figure>
-
-1. Wallet balance of token 0, click to copy your wallet balance into asset amount
-2. Dollar value of chosen deposit amounts of token 0
-3. Wallet balance of token 1, click to copy your wallet balance into asset amount
-4. Dollar value of chosen deposit amounts of token 1
-5. Chosen deposit amounts of token 0
-6. Chosen deposit amounts of token 1
-7. Total dollar value of chosen deposit
-8. Deposit max possible amounts from wallet that meet the amounts ration determined from chosen price/tick range.
-9. Toggle between manual and smart mode
-
-If you modify amounts in manual mode the application will automatically calculate corresponding amount of other token that will meet deposit conditions. It will not take into account your wallet balance etc. Use it if you would like to check how much of e.g. wS you need to deposit to pair with 1 WETH in tick range A,B.\
-
-
-### Advanced asset amounts calculator
-
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
-
-1. Walet MAX - input into asset amounts your wallet balance, use advanced calculator to check how much of one asset to swap to the other asset to deposit
-2. Input dollar value of position. Advanced calculator will input the token amounts that total sum will be roughly the chosen dollar deposit value
-3. Amount of token 0 to sell into token 1 to fully deposit the total value of chosen assets
-4. Amount of token 1 to buy from token 0 to fully deposit the total value of chosen assets
-5. Aggregators selector icon. Pick the aggregator you like to perform swap. If you allow the page will copy the sell amount into your clipboard. Aggregator will be opened on corresponding chain and chosen pool tokens prepared for swap.
-6. Token 0 chosen deposit amount
-7. Token 1 chosen deposit amount
-8. Copy chosen deposit amount into clipboard
-9. Deposit ratio. How much you can instantly deposit from chosen amounts without swapping tokens.&#x20;
-
-Advanced calculator allows user to input any amount of any token he wants. Then he will provide information of how much of token A swap to token B to deposit those chose amounts.&#x20;
-
-Let's assume user want's to deposit everything he has in his wallet to ws/WETH pool. Deposition steps are as follows:
-
-1. Choose suitable price range for deposit
-2. Click Wallet Max
-3. Click Aggregator selector to Sell \~22 wS to 0.0036 WETH
-4. Go back to solidly page, wait until the wallet balance changes
-5. Click wallet MAX again to update deposit amounts to new wallet balance. Usually now the deposit ratio is around 100%.
-6. Click add liquidity
-
+## Conclusion
+Providing liquidity on Solidly DEX is an effective way to earn passive income while contributing to the ecosystem.
+By carefully selecting your price range and managing token ratios, you can optimize returns and mitigate risks.
