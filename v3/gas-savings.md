@@ -17,4 +17,4 @@ We'll let the numbers speak for themselves. Our approach was quite straightforwa
 
 The full gas snapshots for Solidly V3 vs Uniswap V3 can be found [here](https://pastebin.com/7wq3HjQT).
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>

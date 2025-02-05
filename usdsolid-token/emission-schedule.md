@@ -13,7 +13,7 @@ The emission schedule of the re-launched protocol on Ethereum would take on the 
 
 However, in reality it will take on a slightly different shape. Due to our special circumstances of not launching a new protocol, we have created a boosted emission phase of 16 weeks in order to bootstrap liquidity on Solidly during the re-launch phase and to allow people easier entry into our ecosystem. In aggregate the total amount emitted doesn't change, it just changes the speed of emission by a little in the end.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Emission Schedule of the remaining 26.3m SOLID over 10 years (after tweak)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Emission Schedule of the remaining 26.3m SOLID over 10 years (after tweak)</p></figcaption></figure>
 
 The emission boost effect looks dramatic, but if we compare the emissions after the boost by overlaying them, we can see that the effect is minimal.
 

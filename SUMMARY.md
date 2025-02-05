@@ -30,7 +30,7 @@ nav_order: 2
 * [📈 Emission Schedule](usdsolid-token/emission-schedule.md)
 * [💯 Dilution Protection](usdsolid-token/dilution-protection.md)
 
-## Voting system&#x20;
+## Voting system
 
 * [👓 Basics](voting-system/basics.md)
 * [🗳️ Voting Process](voting-system/voting-process.md)
@@ -41,7 +41,8 @@ nav_order: 2
 * [🔃 Swaps](dex-basics/swaps.md)
 * [🪙 Fees](dex-basics/fees.md)
 * [💰 Bribing](dex-basics/bribing.md)
-* [🌊 Providing Liquidity](dex-basics/providing-liquidity.md)
+* [🌊 Providing Liquidity](dex-basics/providing-liquidity/README.md)
+  * [Create position](dex-basics/providing-liquidity/create-position.md)
 
 ## Multichain
 

@@ -42,6 +42,6 @@ Like in the V2 constant product AMM, the concentrated liquidity AMM ("CLAMM") go
 
 A simple way to demonstrate this concept is the following 2 graphs:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Concentrated liquidity takes on a similar shape of liquidity which can be found on more efficient forms of trading venues like centralized exchanges, or stock and forex markets.

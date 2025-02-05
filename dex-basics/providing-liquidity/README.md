@@ -23,8 +23,8 @@ By earning SOLID emissions on a weekly basis, LPs can hedge market volatility an
 
 Besides the above mentioned security feature, Solidly V3 introduces financial protection as well in the forms of:
 
-* [JIT Protection](providing-liquidity.md#jit-liquidity-protection)
-* [IL Protection](providing-liquidity.md#il-protection)
+* [JIT Protection](./#jit-liquidity-protection)
+* [IL Protection](./#il-protection)
 
 ### Providing Liquidity on Solidly V3
 
@@ -36,8 +36,8 @@ Fees are accrued in real-time and can be claimed every 24h after the reward calc
 
 ### JIT Liquidity Protection
 
-Liquidity Providers on Solidly enjoy 100% JIT liquidity protection - a form of MEV targeting LPs - read more about JIT liquidity, it's negative effects and Solidly's protective mechanism here [solidly-v3.md](../v3/solidly-v3.md "mention")
+Liquidity Providers on Solidly enjoy 100% JIT liquidity protection - a form of MEV targeting LPs - read more about JIT liquidity, it's negative effects and Solidly's protective mechanism here [solidly-v3.md](../../v3/solidly-v3.md "mention")
 
 ### IL Protection
 
-Solidly employs a proprietary algorithm that front-runs big volatility in crypto markets. The way it works is that it increases trading fees on pools during certain trigger events. Essentially it's a MEV taxing mechanism, which heavily taxes the toxic flow arbitrageurs introduce during times of heightened volatility. Read about it in more detail here [solidly-v3.md](../v3/solidly-v3.md "mention")
+Solidly employs a proprietary algorithm that front-runs big volatility in crypto markets. The way it works is that it increases trading fees on pools during certain trigger events. Essentially it's a MEV taxing mechanism, which heavily taxes the toxic flow arbitrageurs introduce during times of heightened volatility. Read about it in more detail here [solidly-v3.md](../../v3/solidly-v3.md "mention")

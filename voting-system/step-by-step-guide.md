@@ -13,7 +13,7 @@ In order to vote you first need a `veSOLID` NFT, for which you will need to lock
 
 Visit [https://solidly.com/swap](https://solidly.com/swap) to acquire SOLID
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (7) (1).png>)
 
 ## Step 2: Vest SOLID in to veSOLID
 
@@ -30,7 +30,7 @@ Visit [https://solidly.com/vote](https://solidly.com/vote) and then vote on your
 
 Wait for the epoch to flip, voter bribes will be claimable immediately after the epoch flips and trading fees can be claimed as they accrue in real-time throughout the week. All rewards can be claimed on [https://solidly.com/rewards](https://solidly.com/rewards)
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 
 ## Alternative via OTC
 
