@@ -8,7 +8,7 @@ nav_order: 2
 
 ## Introduction
 
-* [🌞 Welcome to Solidly](README.md)
+* [Solidly V3 Documentation](README.md)
 
 ## A New Kind of DEX
 

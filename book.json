@@ -1,4 +1,6 @@
 {
+  "title": "Solidly V3 Documentation",
+  "description": "Solidly V3 Documentation",
   "plugins": ["anchorjs", "page-toc"],
   "pluginsConfig": {
     "anchorjs": {
