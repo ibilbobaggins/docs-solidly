@@ -4,7 +4,7 @@
   "description": "A documentation of Solidly V3",
   "main": "index.js",
   "scripts": {
-    "build": "honkit build",
+    "build": "./fix_honkit_plugins.sh && honkit build",
     "serve": "honkit serve",
     "clean": "rm -rf _book"
   },

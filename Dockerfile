@@ -17,8 +17,6 @@ COPY package.json package-lock.json* ./
 # Install dependencies using npm
 RUN npm install
 
-RUN sed -i 's/"3.\*"/"*"/g' /app/node_modules/gitbook-plugin-page-toc/package.json
-
 # -------------------------------
 # Stage 3: Build the HonKit Book
 # -------------------------------
@@ -31,7 +29,7 @@ COPY . .
 COPY --from=deps /app/node_modules ./node_modules
 
 # Build the static site; HonKit outputs the book into the _book folder by default
-RUN npx honkit build
+RUN npm run build
 
 # -------------------------------
 # Stage 4: Serve the Built Book Using "serve"
