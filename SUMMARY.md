@@ -49,6 +49,8 @@ nav_order: 2
 * [Crosschain Voting](multichain/crosschain-voting.md)
 * [Crosschain Emissions](multichain/crosschain-emissions.md)
 * [Crosschain Swaps](multichain/crosschain-swaps.md)
+* [Crosschain Bridging](multichain/crosschain-bridging.md)
+
 
 ## Resources
 
